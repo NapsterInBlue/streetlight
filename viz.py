@@ -1,7 +1,9 @@
+import numpy as np
 from itertools import groupby
 
 import matplotlib
 import matplotlib.pylab as plt
+from matplotlib.lines import Line2D
 import seaborn as sns
 
 from mapping import all_clean
