@@ -1,0 +1,7 @@
+# standard
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+
+# tinkering artifacts
+test.png
