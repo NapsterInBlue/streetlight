@@ -79,6 +79,7 @@ def plot_all_time_plays(trimmed):
     fmtr = matplotlib.ticker.IndexFormatter(all_clean)
 
     fig, ax = plt.subplots(figsize=(10, 15))
+    fig.set_facecolor("w")
 
     ax.barh(range(len(song_counts)), song_counts,
             color=((8/255, 48/255, 107/255, 255/255)))
@@ -109,6 +110,7 @@ def cooccurrence_heatmap(trimmed, play_weighted=False):
     
     # plot
     fig, ax = plt.subplots(figsize=(20, 15))
+    fig.set_facecolor("w")
 
     sns.heatmap(mat, ax=ax, mask=mask, cmap='Reds',
                 cbar=False);
