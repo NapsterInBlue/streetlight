@@ -28,6 +28,7 @@ def make_setlist_heatmap(trimmed):
 
     output.set_ylim(len(trimmed.T)+0.5, -5)
     fig.suptitle('A Decade of Streetlight Manifesto Setlists', x=.5, y=.92, fontsize=124);
+    fig.set_facecolor("w")
 
     # remove x axis tick clutter
     loc = matplotlib.ticker.NullLocator()
